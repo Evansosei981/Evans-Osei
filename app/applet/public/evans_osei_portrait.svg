@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <!-- Background atmospheric glow -->
+    <radialGradient id="evansHeroGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="55%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#05070c" />
+    </radialGradient>
+
+    <!-- GitHub Octocat Silhouette on Wall Gradient -->
+    <linearGradient id="ghLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.08" />
+    </linearGradient>
+
+    <!-- Evans Skin Tone Gradient (Rich Deep Warm Melanin) -->
+    <radialGradient id="evansSkin" cx="42%" cy="32%" r="58%">
+      <stop offset="0%" stop-color="#7c4a32" />
+      <stop offset="35%" stop-color="#653b26" />
+      <stop offset="70%" stop-color="#4d2b1a" />
+      <stop offset="100%" stop-color="#321a0f" />
+    </radialGradient>
+
+    <radialGradient id="evansSkinHighlight" cx="38%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#9a5e40" stop-opacity="0.65" />
+      <stop offset="60%" stop-color="#653b26" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Rim Lighting for Tech Aesthetic -->
+    <linearGradient id="rimLightLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55" />
+      <stop offset="15%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="rimLightRight" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.45" />
+      <stop offset="15%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Hair Texture Gradient -->
+    <radialGradient id="hairGrad" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1e1820" />
+      <stop offset="70%" stop-color="#120e14" />
+      <stop offset="100%" stop-color="#08060a" />
+    </radialGradient>
+
+    <!-- Jacket / Hoodie Tech Attire -->
+    <linearGradient id="hoodieGrad" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#181e28" />
+      <stop offset="40%" stop-color="#0f131a" />
+      <stop offset="100%" stop-color="#07090d" />
+    </linearGradient>
+
+    <linearGradient id="hoodieZipper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Glasses Frame Style -->
+    <linearGradient id="glassesGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#a16207" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Studio Environment -->
+  <rect width="600" height="750" rx="28" fill="url(#evansHeroGlow)" />
+
+  <!-- Subtle Developer Grid Lines in background -->
+  <g stroke="#38bdf8" stroke-width="0.75" opacity="0.08">
+    <line x1="0" y1="150" x2="600" y2="150" stroke-dasharray="6 6" />
+    <line x1="0" y1="300" x2="600" y2="300" stroke-dasharray="6 6" />
+    <line x1="0" y1="450" x2="600" y2="450" stroke-dasharray="6 6" />
+    <line x1="0" y1="600" x2="600" y2="600" stroke-dasharray="6 6" />
+    <line x1="150" y1="0" x2="150" y2="750" stroke-dasharray="6 6" />
+    <line x1="300" y1="0" x2="300" y2="750" stroke-dasharray="6 6" />
+    <line x1="450" y1="0" x2="450" y2="750" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- GitHub Invertocat Logo in Background (directly inspired by Evans standing in front of GitHub banner) -->
+  <g transform="translate(180, 70) scale(1.5)" fill="url(#ghLogoGrad)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M80 0C35.82 0 0 35.82 0 80C0 115.35 22.9 145.34 54.67 155.91C58.67 156.65 60.13 154.17 60.13 152.05C60.13 150.15 60.06 143.6 60.02 135.42C37.76 140.26 33.07 125.96 33.07 125.96C29.43 116.71 24.19 114.25 24.19 114.25C16.92 109.28 24.74 109.38 24.74 109.38C32.78 109.95 37.01 117.65 37.01 117.65C44.15 129.89 55.75 126.35 60.32 124.3C61.05 119.12 63.12 115.58 65.41 113.58C47.64 111.56 28.96 104.68 28.96 73.98C28.96 65.23 32.08 58.07 37.21 52.46C36.38 50.44 33.63 42.29 37.99 31.25C37.99 31.25 44.72 29.1 60.03 39.46C66.42 28.47 80 28.47 80 28.47C86.79 28.47 93.58 29.39 99.97 31.14C115.28 20.78 122.01 22.93 122.01 22.93C126.37 33.97 123.62 42.12 122.79 44.14C127.92 49.75 131.04 56.91 131.04 65.66C131.04 96.44 112.31 103.22 94.49 105.2C97.38 107.69 100 112.63 100 120.2C100 131.12 99.9 148.06 99.9 150.73C99.9 152.87 101.33 155.39 105.41 154.59C137.13 144 160 114.05 160 78.69C160 35.82 124.18 0 80 0Z" />
+  </g>
+
+  <!-- Ambient Rim Glows over Shoulders -->
+  <circle cx="120" cy="500" r="160" fill="#38bdf8" opacity="0.12" filter="blur(40px)" />
+  <circle cx="480" cy="500" r="160" fill="#a855f7" opacity="0.12" filter="blur(40px)" />
+
+  <!-- EVANS OSEI FIGURE -->
+  <!-- Shoulders / Torso / Tech Hoodie Attire -->
+  <g id="torso">
+    <!-- Back Body Silhouette -->
+    <path d="M 80 750 L 115 540 C 130 490 185 450 250 435 L 300 445 L 350 435 C 415 450 470 490 485 540 L 520 750 Z" fill="url(#hoodieGrad)" />
+
+    <!-- Jacket Collar & Lapels -->
+    <path d="M 230 435 L 265 520 L 300 550 L 335 520 L 370 435 C 330 455 270 455 230 435 Z" fill="#0c1017" stroke="#1f293d" stroke-width="2" />
+
+    <!-- Inner T-Shirt / Crewneck -->
+    <path d="M 265 480 C 265 520 335 520 335 480 Z" fill="#030712" />
+
+    <!-- Luminous Cyan Zipper Accent -->
+    <line x1="300" y1="540" x2="300" y2="750" stroke="url(#hoodieZipper)" stroke-width="3" stroke-linecap="round" />
+    <circle cx="300" cy="542" r="5" fill="#38bdf8" />
+
+    <!-- Subtle Shoulder Seam Highlights -->
+    <path d="M 160 520 Q 230 475 270 455" stroke="#38bdf8" stroke-width="1.5" opacity="0.3" fill="none" />
+    <path d="M 440 520 Q 370 475 330 455" stroke="#c084fc" stroke-width="1.5" opacity="0.3" fill="none" />
+  </g>
+
+  <!-- Neck -->
+  <g id="neck">
+    <path d="M 262 370 C 262 445 338 445 338 370 Z" fill="url(#evansSkin)" />
+    <!-- Neck shadow under chin -->
+    <path d="M 265 375 C 285 405 315 405 335 375 C 325 390 275 390 265 375 Z" fill="#25130b" opacity="0.65" />
+    <!-- Larynx / subtle muscle contour -->
+    <path d="M 297 395 L 303 395 L 300 415 Z" fill="#3f2113" opacity="0.4" />
+  </g>
+
+  <!-- Head & Facial Features -->
+  <g id="head">
+    <!-- Ears -->
+    <!-- Left Ear -->
+    <ellipse cx="206" cy="272" rx="14" ry="24" transform="rotate(-6 206 272)" fill="#58311d" />
+    <ellipse cx="208" cy="272" rx="8" ry="14" fill="#381c0f" />
+    <!-- Right Ear -->
+    <ellipse cx="394" cy="272" rx="14" ry="24" transform="rotate(6 394 272)" fill="#58311d" />
+    <ellipse cx="392" cy="272" rx="8" ry="14" fill="#381c0f" />
+
+    <!-- Jaw & Face Shape -->
+    <path d="M 215 220 C 210 325 240 380 300 380 C 360 380 390 325 385 220 C 385 140 360 120 300 120 C 240 120 215 140 215 220 Z" fill="url(#evansSkin)" />
+    
+    <!-- Cheek & Forehead Highlight Layer -->
+    <path d="M 225 210 C 220 300 245 355 300 355 C 330 355 370 315 375 220 C 375 145 350 130 300 130 C 255 130 225 145 225 210 Z" fill="url(#evansSkinHighlight)" />
+
+    <!-- Clean Low Fade Textured Hair (Authentic neat modern cut) -->
+    <path d="M 210 210 C 205 155 230 102 300 98 C 370 102 395 155 390 210 C 392 195 388 140 355 120 C 325 106 275 106 245 120 C 212 140 208 195 210 210 Z" fill="url(#hairGrad)" />
+
+    <!-- Hair hairline shape & fade contours -->
+    <path d="M 212 210 C 222 178 245 152 300 150 C 355 152 378 178 388 210 C 385 170 370 128 300 125 C 230 128 215 170 212 210 Z" fill="#0d0910" />
+
+    <!-- Subtle curls texture overlay -->
+    <g fill="#17111c" opacity="0.75">
+      <circle cx="250" cy="120" r="14" />
+      <circle cx="280" cy="112" r="16" />
+      <circle cx="310" cy="112" r="16" />
+      <circle cx="340" cy="120" r="14" />
+      <circle cx="230" cy="140" r="12" />
+      <circle cx="365" cy="140" r="12" />
+      <circle cx="265" cy="132" r="15" />
+      <circle cx="325" cy="132" r="15" />
+      <circle cx="295" cy="128" r="16" />
+    </g>
+
+    <!-- Sideburns with tight fade taper -->
+    <path d="M 212 208 L 216 250 L 222 250 L 220 208 Z" fill="#1b1219" opacity="0.85" />
+    <path d="M 388 208 L 384 250 L 378 250 L 380 208 Z" fill="#1b1219" opacity="0.85" />
+
+    <!-- Eyebrows (Neat, well-defined, analytical arch) -->
+    <path d="M 235 224 Q 262 212 284 222" stroke="#150d0a" stroke-width="5.5" stroke-linecap="round" fill="none" />
+    <path d="M 365 224 Q 338 212 316 222" stroke="#150d0a" stroke-width="5.5" stroke-linecap="round" fill="none" />
+
+    <!-- Eyes (Focused, warm, confident) -->
+    <!-- Left Eye -->
+    <ellipse cx="258" cy="242" rx="14" ry="8.5" fill="#f8fafc" />
+    <circle cx="259" cy="242" r="6" fill="#1e1009" />
+    <circle cx="260.5" cy="240.5" r="2.2" fill="#ffffff" />
+    <path d="M 244 238 Q 258 233 272 238" stroke="#1c0f08" stroke-width="2" fill="none" />
+
+    <!-- Right Eye -->
+    <ellipse cx="342" cy="242" rx="14" ry="8.5" fill="#f8fafc" />
+    <circle cx="341" cy="242" r="6" fill="#1e1009" />
+    <circle cx="342.5" cy="240.5" r="2.2" fill="#ffffff" />
+    <path d="M 328 238 Q 342 233 356 238" stroke="#1c0f08" stroke-width="2" fill="none" />
+
+    <!-- Modern Spectacles / Smart Glasses Frame -->
+    <g id="spectacles">
+      <!-- Left Lens Frame -->
+      <rect x="236" y="226" width="46" height="34" rx="10" stroke="#0f172a" stroke-width="3.5" fill="rgba(56, 189, 248, 0.08)" />
+      <rect x="238" y="228" width="42" height="30" rx="8" stroke="url(#glassesGold)" stroke-width="1.2" fill="none" opacity="0.75" />
+      
+      <!-- Right Lens Frame -->
+      <rect x="318" y="226" width="46" height="34" rx="10" stroke="#0f172a" stroke-width="3.5" fill="rgba(56, 189, 248, 0.08)" />
+      <rect x="320" y="228" width="42" height="30" rx="8" stroke="url(#glassesGold)" stroke-width="1.2" fill="none" opacity="0.75" />
+
+      <!-- Center Bridge -->
+      <path d="M 282 238 Q 300 234 318 238" stroke="#0f172a" stroke-width="3.5" fill="none" />
+      <path d="M 283 238 Q 300 235 317 238" stroke="url(#glassesGold)" stroke-width="1.2" fill="none" />
+
+      <!-- Left Temple Arm -->
+      <line x1="236" y1="236" x2="212" y2="242" stroke="#0f172a" stroke-width="3" stroke-linecap="round" />
+      <!-- Right Temple Arm -->
+      <line x1="364" y1="236" x2="388" y2="242" stroke="#0f172a" stroke-width="3" stroke-linecap="round" />
+
+      <!-- Glass Glare Highlights -->
+      <path d="M 242 232 L 260 252" stroke="#ffffff" stroke-width="1.75" stroke-linecap="round" opacity="0.45" />
+      <path d="M 324 232 L 342 252" stroke="#ffffff" stroke-width="1.75" stroke-linecap="round" opacity="0.45" />
+    </g>
+
+    <!-- Nose (Well-proportioned, natural contour) -->
+    <path d="M 298 232 L 295 278 L 286 288 Q 300 293 314 288 L 305 278 Z" fill="#432213" opacity="0.75" />
+    <ellipse cx="300" cy="286" rx="14" ry="7" fill="#60341e" />
+    <circle cx="290" cy="287" r="3" fill="#291207" />
+    <circle cx="310" cy="287" r="3" fill="#291207" />
+    <ellipse cx="300" cy="282" rx="4" ry="2" fill="#884d2f" opacity="0.8" />
+
+    <!-- Mouth & Warm Confident Smile -->
+    <g id="smile">
+      <path d="M 276 322 Q 300 336 324 322" stroke="#3b1b0e" stroke-width="3.5" stroke-linecap="round" fill="none" />
+      <!-- Upper lip line -->
+      <path d="M 280 321 Q 300 317 320 321 Q 300 325 280 321 Z" fill="#582a17" />
+      <!-- Lower lip shadow & volume -->
+      <path d="M 283 324 Q 300 339 317 324 Q 300 344 283 324 Z" fill="#6f3922" />
+      <!-- Smile dimple corners -->
+      <circle cx="274" cy="321" r="1.5" fill="#3b1b0e" opacity="0.6" />
+      <circle cx="326" cy="321" r="1.5" fill="#3b1b0e" opacity="0.6" />
+    </g>
+
+    <!-- Clean subtle chin contour -->
+    <path d="M 288 354 Q 300 358 312 354" stroke="#482514" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.6" />
+  </g>
+
+  <!-- High-Tech Verified Engineer Floating Tag -->
+  <g transform="translate(30, 40)">
+    <rect width="180" height="34" rx="17" fill="rgba(15, 23, 42, 0.85)" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#10b981" />
+    <text x="32" y="21" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#f8fafc" letter-spacing="0.05em">EVANS OSEI</text>
+    <text x="110" y="21" font-family="monospace" font-size="9" fill="#38bdf8" letter-spacing="0.08em">· DEV</text>
+  </g>
+
+  <!-- University of Ghana Badge Pill on Bottom Right -->
+  <g transform="translate(380, 680)">
+    <rect width="190" height="36" rx="18" fill="rgba(15, 23, 42, 0.9)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+    <circle cx="20" cy="18" r="8" fill="#eab308" opacity="0.9" />
+    <text x="38" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#e2e8f0">Univ. of Ghana, Legon</text>
+  </g>
+</svg>
